@@ -146,6 +146,7 @@
                     android:layout_marginTop="@dimen/_4sdp"
                     android:gravity="center"
                     android:text="Vowels (स्वर)"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="24sp"/>
 
@@ -174,7 +175,8 @@
                             android:gravity="center"
                             android:singleLine="true"
                             android:text="अ"
-                            android:textColor="@android:color/white"
+                            android:fontFamily="@font/lohit_devanagari"
+                    android:textColor="@android:color/white"
                             android:textSize="108sp"/>
 
                     </RelativeLayout>
@@ -205,7 +207,8 @@
                             android:gravity="center"
                             android:singleLine="true"
                             android:text="अनार"
-                            android:textColor="@android:color/white"
+                            android:fontFamily="@font/lohit_devanagari"
+                    android:textColor="@android:color/white"
                             android:textSize="32sp"/>
 
                     </LinearLayout>
@@ -243,6 +246,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_1_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -254,6 +258,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_4_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -265,6 +270,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_2_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -276,6 +282,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_5_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -287,6 +294,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_3_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -309,6 +317,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_0_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -320,6 +329,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_5_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -331,6 +341,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_1_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -342,6 +353,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_4_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -353,6 +365,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_0_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -375,6 +388,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_2_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -386,6 +400,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_4_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -397,6 +412,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_5_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -408,6 +424,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_2_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -419,6 +436,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_1_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -441,6 +459,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_4_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -452,6 +471,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_1_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -463,6 +483,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_3_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -474,6 +495,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_0_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -485,6 +507,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_5_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -507,6 +530,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_1_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -518,6 +542,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_5_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -529,6 +554,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_4_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -540,6 +566,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_1_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -551,6 +578,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_2_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -573,6 +601,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_0_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -584,6 +613,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_1_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -595,6 +625,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_2_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -606,6 +637,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_5_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -617,6 +649,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_3_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -638,6 +671,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_0_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"
                     android:visibility="invisible"/>
@@ -650,6 +684,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_0_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -661,6 +696,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_1_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -672,6 +708,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_3_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"/>
 
@@ -682,6 +719,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button60_0_600"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="32sp"
                     android:visibility="invisible"/>
@@ -715,6 +753,7 @@
             android:layout_alignLeft="@+id/loweUpper"
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/lohit_devanagari"
             android:gravity="center"
             android:text="अ"
             android:textColor="@android:color/black"
@@ -727,6 +766,7 @@
             android:layout_alignRight="@+id/loweUpper"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/_10sdp"
+            android:fontFamily="@font/lohit_devanagari"
             android:gravity="center"
             android:text="क"
             android:textColor="@android:color/black"

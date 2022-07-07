@@ -164,6 +164,7 @@
                             android:layout_marginTop="@dimen/_2sdp"
                             android:gravity="center"
                             android:text="Vowels (स्वर)"
+                            android:fontFamily="@font/lohit_devanagari"
                             android:textColor="@android:color/white"
                             android:textSize="15sp"/>
 
@@ -191,7 +192,8 @@
                                     android:gravity="center"
                                     android:singleLine="true"
                                     android:text="अ"
-                                    android:textColor="@android:color/white"
+                                    android:fontFamily="@font/lohit_devanagari"
+                            android:textColor="@android:color/white"
                                     android:textSize="60sp"/>
 
                             </RelativeLayout>
@@ -223,7 +225,8 @@
                                     android:gravity="center"
                                     android:singleLine="true"
                                     android:text="अनार"
-                                    android:textColor="@android:color/white"
+                                    android:fontFamily="@font/lohit_devanagari"
+                            android:textColor="@android:color/white"
                                     android:textSize="15sp"/>
 
                             </LinearLayout>
@@ -251,7 +254,8 @@
                         android:clickable="true"
                         android:gravity="center"
                         android:textAllCaps="true"
-                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/lohit_devanagari"
+                            android:textColor="@android:color/white"
                         android:textSize="26sp"/>
 
                     <TextView
@@ -263,7 +267,8 @@
                         android:background="@drawable/button_small_3_320"
                         android:gravity="center"
                         android:textAllCaps="true"
-                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/lohit_devanagari"
+                            android:textColor="@android:color/white"
                         android:textSize="26sp"/>
 
 
@@ -274,7 +279,8 @@
                         android:background="@drawable/button_small_5_320"
                         android:gravity="center"
                         android:textAllCaps="true"
-                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/lohit_devanagari"
+                            android:textColor="@android:color/white"
                         android:textSize="26sp"/>
 
                 </LinearLayout>
@@ -390,6 +396,7 @@
                 android:layout_alignLeft="@+id/loweUpper"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/lohit_devanagari"
                 android:gravity="center"
                 android:text="अ"
                 android:textColor="@android:color/black"
@@ -402,6 +409,7 @@
                 android:layout_alignRight="@+id/loweUpper"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/lohit_devanagari"
                 android:gravity="center"
                 android:text="क"
                 android:textColor="@android:color/black"

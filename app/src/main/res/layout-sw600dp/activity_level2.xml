@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,14 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/bg_600"/>
+        android:src="@drawable/bg_600" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/backBT"
-        android:layout_marginLeft="@dimen/_104sdp"
         android:layout_marginStart="@dimen/_104sdp"
+        android:layout_marginLeft="@dimen/_104sdp"
         android:layout_marginTop="-120dp"
         android:layout_toEndOf="@+id/backBT"
         android:layout_toRightOf="@+id/backBT">
@@ -27,14 +26,14 @@
             android:layout_width="@dimen/_171sdp"
             android:layout_height="@dimen/_171sdp"
             android:layout_centerInParent="true"
-            android:src="@drawable/sunrays_600"/>
+            android:src="@drawable/sunrays_600" />
 
         <ImageView
             android:id="@+id/sunIV"
             android:layout_width="@dimen/_59sdp"
             android:layout_height="@dimen/_59sdp"
             android:layout_centerInParent="true"
-            android:src="@drawable/sun_600"/>
+            android:src="@drawable/sun_600" />
 
 
     </RelativeLayout>
@@ -48,41 +47,41 @@
         android:layout_alignParentRight="true"
         android:layout_marginEnd="-600dp"
         android:layout_marginRight="-600dp"
-        android:src="@drawable/cloud0_600"/>
+        android:src="@drawable/cloud0_600" />
 
     <ImageView
         android:id="@+id/cloud6IV"
         android:layout_width="@dimen/_59sdp"
         android:layout_height="@dimen/_40sdp"
         android:layout_alignBottom="@+id/backBT"
-        android:layout_marginBottom="@dimen/_16sdp"
-        android:layout_marginLeft="@dimen/_88sdp"
         android:layout_marginStart="@dimen/_88sdp"
+        android:layout_marginLeft="@dimen/_88sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
         android:layout_toEndOf="@+id/cloud0IV"
         android:layout_toRightOf="@+id/cloud0IV"
-        android:src="@drawable/cloud6_600"/>
+        android:src="@drawable/cloud6_600" />
 
     <ImageView
         android:id="@+id/cloud1IV"
         android:layout_width="@dimen/_99sdp"
         android:layout_height="@dimen/_59sdp"
+        android:layout_below="@+id/cloud0IV"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/cloud0IV"
         android:layout_marginEnd="-300dp"
         android:layout_marginRight="-300dp"
-        android:src="@drawable/cloud1_600"/>
+        android:src="@drawable/cloud1_600" />
 
     <ImageView
         android:id="@+id/cloud7IV"
         android:layout_width="@dimen/_67sdp"
         android:layout_height="@dimen/_43sdp"
         android:layout_below="@+id/backBT"
-        android:layout_marginLeft="@dimen/_204sdp"
         android:layout_marginStart="@dimen/_204sdp"
+        android:layout_marginLeft="@dimen/_204sdp"
         android:layout_toEndOf="@+id/cloud1IV"
         android:layout_toRightOf="@+id/cloud1IV"
-        android:src="@drawable/cloud7_600"/>
+        android:src="@drawable/cloud7_600" />
 
     <ImageView
         android:id="@+id/cloud3IV"
@@ -93,17 +92,17 @@
         android:layout_centerVertical="true"
         android:layout_marginEnd="-500dp"
         android:layout_marginRight="-500dp"
-        android:src="@drawable/cloud3_600"/>
+        android:src="@drawable/cloud3_600" />
 
 
     <ImageButton
         android:id="@+id/backBT"
         android:layout_width="@dimen/_35sdp"
         android:layout_height="@dimen/_35sdp"
-        android:layout_marginLeft="@dimen/_12sdp"
         android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
         android:layout_marginTop="@dimen/_12sdp"
-        android:background="@drawable/back_button_600"/>
+        android:background="@drawable/back_button_600" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -131,18 +130,18 @@
                     android:id="@+id/smallBoardIV"
                     android:layout_width="@dimen/_194sdp"
                     android:layout_height="@dimen/_209sdp"
-                    android:src="@drawable/small_blackboard_600"/>
+                    android:src="@drawable/small_blackboard_600" />
 
                 <RelativeLayout
                     android:id="@+id/hiddenLayout"
                     android:layout_width="@dimen/_152sdp"
                     android:layout_height="@dimen/_109sdp"
+                    android:layout_alignTop="@+id/smallBoardIV"
                     android:layout_alignEnd="@+id/smallBoardIV"
                     android:layout_alignRight="@+id/smallBoardIV"
-                    android:layout_alignTop="@+id/smallBoardIV"
+                    android:layout_marginTop="@dimen/_22sdp"
                     android:layout_marginEnd="@dimen/_16sdp"
-                    android:layout_marginRight="@dimen/_16sdp"
-                    android:layout_marginTop="@dimen/_22sdp">
+                    android:layout_marginRight="@dimen/_16sdp">
 
                     <TextView
                         android:id="@+id/smallBoardLabel"
@@ -150,10 +149,11 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="@dimen/_1sdp"
+                        android:fontFamily="@font/lohit_devanagari"
                         android:gravity="center"
                         android:text="Vowels (स्वर)"
                         android:textColor="@android:color/white"
-                        android:textSize="24sp"/>
+                        android:textSize="24sp" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -175,10 +175,11 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
+                                android:fontFamily="@font/lohit_devanagari"
                                 android:singleLine="true"
                                 android:text="अ"
                                 android:textColor="@android:color/white"
-                                android:textSize="100sp"/>
+                                android:textSize="100sp" />
 
                         </RelativeLayout>
 
@@ -188,8 +189,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
-                            android:layout_marginLeft="@dimen/_8sdp"
                             android:layout_marginStart="@dimen/_8sdp"
+                            android:layout_marginLeft="@dimen/_8sdp"
                             android:orientation="vertical">
 
                             <ImageView
@@ -197,7 +198,7 @@
                                 android:layout_width="@dimen/_48sdp"
                                 android:layout_height="@dimen/_48sdp"
                                 android:layout_gravity="center_horizontal"
-                                android:src="@drawable/pomegranate_600"/>
+                                android:src="@drawable/pomegranate_600" />
 
                             <TextView
                                 android:id="@+id/tvFruitName"
@@ -205,11 +206,12 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_marginTop="@dimen/_4sdp"
+                                android:fontFamily="@font/lohit_devanagari"
                                 android:gravity="center"
                                 android:singleLine="true"
                                 android:text="अनार"
                                 android:textColor="@android:color/white"
-                                android:textSize="25sp"/>
+                                android:textSize="25sp" />
 
                         </LinearLayout>
 
@@ -224,14 +226,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:layout_marginLeft="@dimen/_12sdp"
-                android:layout_marginStart="@dimen/_12sdp">
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginLeft="@dimen/_12sdp">
 
                 <ImageView
                     android:id="@+id/bigBoardIV"
                     android:layout_width="@dimen/_211sdp"
                     android:layout_height="@dimen/_223sdp"
-                    android:src="@drawable/big_blackboard_600"/>
+                    android:src="@drawable/big_blackboard_600" />
 
                 <RelativeLayout
                     android:id="@+id/contentLayoutGameLevel2"
@@ -239,9 +241,9 @@
                     android:layout_height="@dimen/_119sdp"
                     android:layout_alignEnd="@+id/bigBoardIV"
                     android:layout_alignRight="@+id/bigBoardIV"
+                    android:layout_marginTop="@dimen/_26sdp"
                     android:layout_marginEnd="@dimen/_8sdp"
                     android:layout_marginRight="@dimen/_8sdp"
-                    android:layout_marginTop="@dimen/_26sdp"
                     android:orientation="horizontal">
 
 
@@ -252,22 +254,22 @@
                     android:layout_width="@dimen/_28sdp"
                     android:layout_height="@dimen/_12sdp"
                     android:layout_alignBottom="@+id/bigBoardIV"
-                    android:layout_marginBottom="@dimen/_72sdp"
-                    android:layout_marginLeft="@dimen/_40sdp"
                     android:layout_marginStart="@dimen/_40sdp"
-                    android:background="@drawable/duster_button_600"/>
+                    android:layout_marginLeft="@dimen/_40sdp"
+                    android:layout_marginBottom="@dimen/_72sdp"
+                    android:background="@drawable/duster_button_600" />
 
                 <ImageButton
                     android:id="@+id/chalkIB"
                     android:layout_width="@dimen/_22sdp"
                     android:layout_height="@dimen/_22sdp"
-                    android:layout_alignBottom="@+id/bigBoardIV"
                     android:layout_alignEnd="@+id/bigBoardIV"
                     android:layout_alignRight="@+id/bigBoardIV"
-                    android:layout_marginBottom="@dimen/_72sdp"
+                    android:layout_alignBottom="@+id/bigBoardIV"
                     android:layout_marginEnd="@dimen/_16sdp"
                     android:layout_marginRight="@dimen/_16sdp"
-                    android:background="@drawable/chalk_button_600"/>
+                    android:layout_marginBottom="@dimen/_72sdp"
+                    android:background="@drawable/chalk_button_600" />
 
 
             </RelativeLayout>
@@ -294,9 +296,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_1_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char2"
@@ -304,9 +307,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_4_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char3"
@@ -314,9 +318,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_2_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char4"
@@ -324,9 +329,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char5"
@@ -334,9 +340,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char6"
@@ -344,9 +351,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_0_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char7"
@@ -354,9 +362,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char8"
@@ -364,9 +373,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_1_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char9"
@@ -374,9 +384,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_0_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char10"
@@ -384,9 +395,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_0_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char11"
@@ -394,9 +406,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_2_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char12"
@@ -404,9 +417,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_2_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char13"
@@ -414,9 +428,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char14"
@@ -424,9 +439,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_4_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char15"
@@ -434,9 +450,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_1_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char16"
@@ -444,9 +461,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_4_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char17"
@@ -454,9 +472,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_2_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
             </LinearLayout>
 
@@ -473,9 +492,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char19"
@@ -483,9 +503,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_0_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char20"
@@ -493,9 +514,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_0_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char21"
@@ -503,9 +525,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_1_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char22"
@@ -513,9 +536,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char23"
@@ -523,9 +547,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_4_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char24"
@@ -533,9 +558,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char25"
@@ -543,9 +569,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char26"
@@ -553,9 +580,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_0_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char27"
@@ -563,9 +591,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_1_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char28"
@@ -573,9 +602,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_2_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char29"
@@ -583,9 +613,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char30"
@@ -593,9 +624,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_5_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char31"
@@ -603,9 +635,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_0_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char32"
@@ -613,9 +646,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_1_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/char33"
@@ -623,9 +657,10 @@
                     android:layout_height="@dimen/_22sdp"
                     android:layout_margin="@dimen/_3sdp"
                     android:background="@drawable/button50_2_600"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
             </LinearLayout>
 
@@ -639,65 +674,67 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="@dimen/_76sdp"
+        android:layout_alignParentBottom="true"
         android:layout_marginEnd="@dimen/_8sdp"
-        android:layout_marginRight="@dimen/_8sdp">
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_76sdp">
 
         <ImageView
             android:id="@+id/loweUpper"
             android:layout_width="@dimen/_62sdp"
             android:layout_height="@dimen/_42sdp"
-            android:src="@drawable/capital_a_600"/>
+            android:src="@drawable/capital_a_600" />
 
         <TextView
             android:id="@+id/swarAlphabetsText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
             android:layout_alignLeft="@+id/loweUpper"
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/lohit_devanagari"
             android:text="अ"
-            android:textSize="40sp"/>
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/varnmalaAlphabetsText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
             android:layout_alignRight="@+id/loweUpper"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/_10sdp"
+            android:fontFamily="@font/lohit_devanagari"
             android:text="क"
-            android:textSize="40sp"/>
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
 
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="@dimen/_79sdp"
+        android:layout_alignParentBottom="true"
         android:layout_marginEnd="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_79sdp"
         android:orientation="horizontal">
 
         <View
             android:id="@+id/swarAlphabets"
             android:layout_width="@dimen/_28sdp"
             android:layout_height="@dimen/_36sdp"
-            android:background="@drawable/transparent_button_600"/>
+            android:background="@drawable/transparent_button_600" />
 
         <View
             android:id="@+id/varnmalaAlphabets"
             android:layout_width="@dimen/_28sdp"
             android:layout_height="@dimen/_36sdp"
-            android:background="@drawable/transparent_button_600"/>
+            android:background="@drawable/transparent_button_600" />
 
     </LinearLayout>
 
