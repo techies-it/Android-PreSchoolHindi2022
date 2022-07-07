@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 32
+    //buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        applicationId "it.techies.preschoolhindi"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 3
+        versionName "1.11"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation "androidx.core:core-ktx:1.8.0"
+    // for log
+    implementation 'com.jakewharton.timber:timber:4.1.0'
+
+    // For slider view
+    implementation 'com.squareup.picasso:picasso:2.3.2'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+
+    // to auto adjust layout size
+    implementation 'com.intuit.sdp:sdp-android:1.0.3'
+
+}

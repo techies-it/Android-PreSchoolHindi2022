@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="it.techies.preschoolhindi"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_600"
+        android:label="@string/app_name"
+        android:screenOrientation="sensorLandscape"
+        android:supportsRtl="true"
+        android:alwaysRetainTaskState="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <service android:name=".services.SoundService"/>
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".ui.GameLevels"
+            android:label="@string/app_name"
+            android:alwaysRetainTaskState="true"
+            android:parentActivityName=".ui.MainActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="it.techies.preschoolhindi.ui.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.Level1"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:alwaysRetainTaskState="true"
+            android:parentActivityName=".ui.MainActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="it.techies.preschoolhindi.ui.GameLevels"/>
+        </activity>
+        <activity
+            android:name=".ui.Level2"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:alwaysRetainTaskState="true"
+            android:parentActivityName=".ui.MainActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="it.techies.preschoolhindi.ui.GameLevels"/>
+        </activity>
+        <activity
+            android:name=".ui.Level3"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:alwaysRetainTaskState="true"
+            android:parentActivityName=".ui.MainActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="it.techies.preschoolhindi.ui.GameLevels"/>
+        </activity>
+        <activity
+            android:name=".ui.Level4"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:alwaysRetainTaskState="true"
+            android:parentActivityName=".ui.MainActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="it.techies.preschoolhindi.ui.GameLevels"/>
+        </activity>
+        <activity
+            android:name=".ui.SplashScreen"
+            android:label="@string/app_name"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.InstructionsScreens"
+                  android:label="@string/app_name"
+                  android:alwaysRetainTaskState="true"
+                  android:screenOrientation="sensorLandscape"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!-- [START firebase_service] -->
+        <service android:name=".services.MyMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+
+        </service>
+        <!-- [END firebase_service] -->
+
+
+        <!-- [START firebase_iid_service] -->
+        <service android:name=".services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+    </application>
+
+</manifest>
