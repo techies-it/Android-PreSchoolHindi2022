@@ -8,6 +8,7 @@ import android.graphics.PorterDuff
 import android.graphics.PorterDuffXfermode
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
@@ -18,15 +19,14 @@ import androidx.core.view.WindowInsetsControllerCompat
 import it.techies.preschoolhindi.R
 import it.techies.preschoolhindi.databinding.ActivityLevel2Binding
 import it.techies.preschoolhindi.util.DrawingView
-import java.util.*
 
 class Level2 : AppCompatActivity(), View.OnClickListener {
     private lateinit var binding: ActivityLevel2Binding
     var view: View? = null
-    
+
     private var drawingView: DrawingView? = null
     private var mPaint: Paint? = null
-    private var mBtnEnable = true  
+    private var mBtnEnable = true
     private var animation270Sec: Animation? = null
     private var animation330Sec: Animation? = null
     private var animation390Sec: Animation? = null
@@ -40,13 +40,13 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
     var SWAR = 1
     var VARNMALA = 2
     var swarVarnmala = 0
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLevel2Binding.inflate(layoutInflater)
         view = binding.root
         setContentView(view)
-        
+
         swarArray = arrayOf("अ", "आ", "इ", "ई", "उ", "ऊ", "ऋ", "ए", "ऐ", "ओ", "औ", "अं", "अः")
         varnmalaArray = arrayOf(
             "क",
@@ -141,7 +141,7 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
         binding.backBT.setOnClickListener(this)
         binding.swarAlphabets.setOnClickListener(this)
         binding.varnmalaAlphabets.setOnClickListener(this)
-        
+
         if (resources.getBoolean(R.bool.isTab)) {
             // for tab
             animation270Sec = AnimationUtils.loadAnimation(
@@ -160,14 +160,14 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
                 applicationContext,
                 R.anim.rotation_600
             )
-            
+
             binding.cloud0IV.startAnimation(animation270Sec)
             binding.cloud1IV.startAnimation(animation330Sec)
             binding.cloud3IV.startAnimation(animation330Sec)
             binding.cloud6IV.startAnimation(animation390Sec)
             binding.cloud7IV.startAnimation(animation390Sec)
             binding.sunRaysIV.startAnimation(rotation)
-            
+
             swarImagesArray = intArrayOf(
                 R.drawable.pomegranate_600,
                 R.drawable.mango_600,
@@ -218,7 +218,7 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
                 R.drawable.apple_600,
                 R.drawable.elephant_600
             )
-            
+
             binding.char4?.setOnClickListener(this)
             binding.char5?.setOnClickListener(this)
             binding.char6?.setOnClickListener(this)
@@ -323,7 +323,9 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
         brushSize(this@Level2, mPaint)
         drawingView = DrawingView(this, mPaint)
         drawingView?.setBackgroundColor(Color.TRANSPARENT)
-        drawingView?.setButtonEnableListener(DrawingView.BtnEnableListener { enable -> mBtnEnable = enable })
+        drawingView?.setButtonEnableListener(DrawingView.BtnEnableListener { enable ->
+            mBtnEnable = enable
+        })
         binding.contentLayoutGameLevel2.addView(drawingView)
 
         // to display swar
@@ -586,7 +588,8 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
                     drawingView?.startNew()
                     mPaint?.color = Color.WHITE
                     brushSize(this@Level2, mPaint)
-                    binding.characterTV.text = binding.char8?.getText().toString().trim { it <= ' ' }
+                    binding.characterTV.text =
+                        binding.char8?.getText().toString().trim { it <= ' ' }
                     if (swarVarnmala == VARNMALA) {
                         binding.ivFruitImage.setImageResource(varnmalaImagesArray[7])
                         binding.tvFruitName.text = varnmalaNamesArray[7]
@@ -921,8 +924,9 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
                     binding.btNext?.isEnabled = true
                     binding.btNext?.isClickable = true
                     binding.btNext?.alpha = 1.0f
-                    val charAt1: String = binding.char1.text.toString().trim { it <= ' ' }
+
                     if (swarVarnmala == VARNMALA) {
+                        val charAt1: String = binding.char1.text.toString().trim { it <= ' ' }
                         val position = listOf(*varnmalaArray).indexOf(charAt1)
                         if (position == 3) {
                             binding.btPrevious?.isEnabled = false
@@ -936,14 +940,22 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
                             binding.tvFruitName.text = varnmalaNamesArray[0]
                         } else if (position > 0 && position < 32) {
                             binding.char1.text = varnmalaArray[position - 3]
-                            binding.char2.text = varnmalaArray[position - 4]
-                            binding.char3.text = varnmalaArray[position - 5]
+                            binding.char2.text = varnmalaArray[position - 2]
+                            binding.char3.text = varnmalaArray[position - 1]
                             binding.characterTV.text = varnmalaArray[position - 3]
                             binding.ivFruitImage.setImageResource(varnmalaImagesArray[position - 3])
                             binding.tvFruitName.text = varnmalaNamesArray[position - 3]
                         }
                     } else {
+                        var charAt1: String = ""
+                        if(binding.char2.text.toString().trim { it <= ' ' } == "अः")
+                        {
+                           charAt1 = binding.char2.text.toString().trim { it <= ' ' }
+                        }else{
+                           charAt1 = binding.char1.text.toString().trim { it <= ' ' }
+                        }
                         val position = listOf(*swarArray).indexOf(charAt1)
+                        Log.d("TAGCharacter", "$position / $charAt1")
                         if (position == 3) {
                             binding.btPrevious?.isEnabled = false
                             binding.btPrevious?.isClickable = false
@@ -954,12 +966,22 @@ class Level2 : AppCompatActivity(), View.OnClickListener {
                             binding.characterTV.text = swarArray[0]
                             binding.ivFruitImage.setImageResource(swarImagesArray[0])
                             binding.tvFruitName.text = swarNamessArray[0]
-                        } else if (position > 0 && position < 12) {
+                        }else if (position == 12){
+                            binding.char1.visibility = View.VISIBLE
+                            binding.char3.visibility = View.VISIBLE
+                            binding.char1.text = swarArray[9]
+                            binding.char2.text = swarArray[10]
+                            binding.char3.text = swarArray[11]
+                            binding.characterTV.text = swarArray[9]
+                            binding.ivFruitImage.setImageResource(swarImagesArray[9])
+                            binding.tvFruitName.text = swarNamessArray[9]
+                        }
+                        else if (position > 0 && position < 12) {
                             binding.char1.visibility = View.VISIBLE
                             binding.char3.visibility = View.VISIBLE
                             binding.char1.text = swarArray[position - 3]
-                            binding.char2.text = swarArray[position - 4]
-                            binding.char3.text = swarArray[position - 5]
+                            binding.char2.text = swarArray[position - 2]
+                            binding.char3.text = swarArray[position - 1]
                             binding.characterTV.text = swarArray[position - 3]
                             binding.ivFruitImage.setImageResource(swarImagesArray[position - 3])
                             binding.tvFruitName.text = swarNamessArray[position - 3]

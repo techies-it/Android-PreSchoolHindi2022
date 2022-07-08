@@ -144,6 +144,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -155,6 +156,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -166,6 +168,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -177,6 +180,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -188,6 +192,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -211,6 +216,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -222,6 +228,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -233,6 +240,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -244,6 +252,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -255,6 +264,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -278,6 +288,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -289,6 +300,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -300,6 +312,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -311,6 +324,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -322,6 +336,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -345,6 +360,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -356,6 +372,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -367,6 +384,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -378,6 +396,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -389,6 +408,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -412,6 +432,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -423,6 +444,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -434,6 +456,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -445,6 +468,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -456,6 +480,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -479,6 +504,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -490,6 +516,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -501,6 +528,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -512,6 +540,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -523,6 +552,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -546,6 +576,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -557,6 +588,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -568,6 +600,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -579,6 +612,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -590,6 +624,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -611,10 +646,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
+                android:fontFamily="@font/lohit_devanagari"
                 android:gravity="center"
                 android:text="Arrange\nthe\nVowels\n(स्वर)"
                 android:textColor="@android:color/white"
-                android:textSize="20dp"/>
+                android:textSize="20dp" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -638,6 +674,7 @@
                     android:layout_marginTop="@dimen/_2sdp"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="@dimen/_18sdp"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:text="अ"
                     android:textColor="@android:color/black"
@@ -651,6 +688,7 @@
                     android:layout_alignRight="@+id/loweUpper"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="@dimen/_18sdp"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:gravity="center"
                     android:text="क"
                     android:textColor="@android:color/black"
@@ -709,6 +747,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -720,6 +759,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -731,6 +771,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -742,6 +783,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -753,6 +795,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -776,6 +819,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -787,6 +831,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -798,6 +843,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -809,6 +855,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -820,6 +867,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -843,6 +891,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -854,6 +903,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -865,6 +915,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -876,6 +927,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -887,6 +939,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -910,6 +963,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -921,6 +975,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -932,6 +987,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -943,6 +999,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -954,6 +1011,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -977,6 +1035,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -988,6 +1047,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -999,6 +1059,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1010,6 +1071,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1021,6 +1083,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1044,6 +1107,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1055,6 +1119,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_1_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1066,6 +1131,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1077,6 +1143,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1088,6 +1155,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1111,6 +1179,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1122,6 +1191,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_5_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1133,6 +1203,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_4_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1144,6 +1215,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_3_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 
@@ -1155,6 +1227,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_small_2_320"
                     android:gravity="center"
+                    android:fontFamily="@font/lohit_devanagari"
                     android:textColor="@android:color/white"
                     android:textSize="21sp"/>
 

@@ -189,12 +189,12 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
+                                    android:fontFamily="@font/lohit_devanagari"
                                     android:gravity="center"
                                     android:singleLine="true"
                                     android:text="अ"
-                                    android:fontFamily="@font/lohit_devanagari"
-                            android:textColor="@android:color/white"
-                                    android:textSize="60sp"/>
+                                    android:textColor="@android:color/white"
+                                    android:textSize="60sp" />
 
                             </RelativeLayout>
 
