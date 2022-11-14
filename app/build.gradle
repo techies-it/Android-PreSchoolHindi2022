@@ -2,15 +2,23 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 32
+    signingConfigs {
+        debug {
+            storeFile file('/home/android/TaranWork/OfficeProjects/2022/Pre School Hindi/PreSchoolHindi/PreSchoolHindi.jks')
+            storePassword '12345678'
+            keyAlias 'PreSchoolHindi'
+            keyPassword '12345678'
+        }
+    }
+    compileSdkVersion 33
     //buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "it.techies.preschoolhindi"
         minSdkVersion 21
-        targetSdkVersion 32
-        versionCode 3
-        versionName "1.11"
+        targetSdkVersion 33
+        versionCode 4
+        versionName "1.12"
     }
     buildTypes {
         release {
